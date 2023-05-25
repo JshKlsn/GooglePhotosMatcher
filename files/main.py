@@ -96,5 +96,5 @@ def mainProcess(browserPath, window, editedW):
         errorMessage = " error"
 
     window['-PROGRESS_BAR-'].update(100, visible=True)
-    window['-PROGRESS_LABEL-'].update("Matching process finishhed with " + str(successCounter) + sucessMessage + " and " + str(errorCounter) + errorMessage + ".", visible=True, text_color='#c0ffb3')
+    window['-PROGRESS_LABEL-'].update("Matching process finished with " + str(successCounter) + sucessMessage + " and " + str(errorCounter) + errorMessage + ".", visible=True, text_color='#c0ffb3')
 
